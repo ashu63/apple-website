@@ -1,0 +1,113 @@
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #333333;
+    padding: 12px 10px;
+    position: sticky;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+    margin-left: -200px;
+    margin-right: -100px;
+}
+ul li a{
+    font-size: 17px;
+    color: #d8d8d8;
+    text-decoration: none;
+    font-weight: 200;
+}
+ul li a:hover{
+    color: white;
+}
+ul li a i{
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 250, 250);
+    height: 20vh;
+    border-bottom: 1px solid lightgrey;
+}
+.nav p{
+ margin-left: -20px;
+}
+.nav .fa{
+    font-size: 50px;
+    color: rgb(46, 46, 46);
+    margin-top: 40px;
+}
+#mac{
+    margin-left: 9px;
+}
+#mini{
+    margin-left: 0px;
+}
+#inch{
+    font-size: 60px;
+}
+#inch2{
+    margin-top: 30px;
+    font-size: 67px;
+}
+.main__content__info{
+    display: flex;
+    justify-content: space-around;
+}
+.main__content__info__left{
+    margin-top: 100px;
+}
+.main__content__info__left h3{
+    font-size: 29px;
+    color: orange;
+}
+.main__content__info__left p{
+    font-size: 25px;
+}
+.main__content__info__left h2{
+    font-size: 60px;
+}
+#para{
+    font-size: 30px;
+    font-weight: bold;
+}
+.main__content__info__left button{
+    width: 70px;
+    border: none;
+    background-color: rgb(94, 94, 230);
+    color: white;
+    height: 40px;
+    border-radius: 14px;
+    margin-top: 25px;
+    font-size: 17px;
+    opacity: .8;
+}
+.main__content__info__left button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.main__content__info__left a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(0, 41, 223);
+
+
+}
+.main__content__info__left a:hover{
+    text-decoration: underline;
+  
+}
+.main__content__info__right img{
+    margin-left: -100px;
+}

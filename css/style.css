@@ -1,0 +1,251 @@
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #333333;
+    padding: 12px 10px;
+    position: sticky;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+    margin-left: -200px;
+    margin-right: -100px;
+}
+ul li a{
+    font-size: 17px;
+    color: #d8d8d8;
+    text-decoration: none;
+    font-weight: 200;
+}
+ul li a:hover{
+    color: white;
+}
+ul li a i{
+    font-size: 25px;
+}
+.service{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.service  a{
+    text-decoration: none;
+    color: rgb(125, 125, 248);
+}
+.apple__banner{
+    position: relative;
+    background-image: url(https://i.pinimg.com/originals/f5/28/3a/f5283a5bff89b8da7e391c581f632e5d.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 130vh;
+}
+.apple__banner h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple__banner p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 23vh;
+}
+.banner__links{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__links a{
+    padding: 10px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #001aff;
+}
+.banner__links a:hover{
+    text-decoration: underline;
+}
+.banner__links a i{
+    font-size: medium;
+}
+.banner__bottom__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 420px;
+}
+.banner__bottom__left h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.banner__bottom__left h3{
+    color: grey;
+    font-size: large;
+}
+.banner__bottom__right{
+    margin-left: -200px;
+}
+.banner__bottom__right h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.banner__bottom__right h3{
+    color: grey;
+    font-size: large;
+}
+.main__content{
+    background-color: #f2f2f2;
+}
+.main__content__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    padding: 20px 0;
+}
+.main__content__info h2{
+    font-size: 52px;
+}
+.main__content__info p{
+    font-size: 30px;
+}
+.main__content__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.main__content__img img{
+    height: 500px;
+}
+.part__2{
+    margin-top: 20px;
+
+}
+.part__2 .banner__bottom__left{
+    margin-bottom: 60px;
+}
+.ipad__and__watch{
+    display: flex;
+    margin-top: 30px;
+}
+.ipad_air{
+    width: 50vw;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ipad_air h1{
+    font-size: 42px;
+}
+.ipad_air p{
+    font-size: 22px;
+}
+.watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin-top: 31px;
+    background-color: black;
+}
+.watch a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+#red{
+    color: red;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.watch p{
+    color: white;
+}
+
+.watch img{
+    height: 330px;
+}
+.main__footer{
+    margin-top: 100px;
+    background-color: #f3f3f3;
+}
+.footer__content{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    color: grey;
+    border-bottom: 1px solid lightgrey;
+}
+#space{
+    margin-bottom: 20px;
+}
+.footer__content p{
+    max-width: 700px;
+    margin-top: 20px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.footer__links p{
+color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 20px;
+}
+.footer__links li{
+    list-style: none;
+  
+}
+.footer__links li a{
+    color: grey;
+    text-decoration: none;
+    font-size: small;
+}
+.footer__links li a:hover{
+    text-decoration: underline;
+}
+#bottom__para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    color: grey;
+    font-size: small;
+    margin-bottom: 1px solid lightgrey;
+}
+hr{
+    width: 75%;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+.last__footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: grey;
+    font-size: 16px;
+}
